@@ -7,15 +7,23 @@ public class HelloWorld {
         //System.out.println("Hello");
         //System.out.println("Leo!");
 
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter the year.");
+        short year= scanner.nextShort();
+        if ((year % 400 ==0) || ((year % 4 ==0) && (year % 100 !=0))) {
+            System.out.println("Year " + year + " is a leap year");
+        } else {
+            System.out.println("Year " + year + " is not a leap year.");
+            }*/
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter your first number");
-        int num1= scanner.nextInt();
-        System.out.println("Please enter your second number");
-        int num2 = scanner.nextInt();
-        int result = 0;
 
-        result = num1 + num2;
-        System.out.println(result);
+
+
+
+
+
+
+
+        }
     }
-}
+
