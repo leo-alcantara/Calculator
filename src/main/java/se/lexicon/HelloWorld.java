@@ -16,8 +16,20 @@ public class HelloWorld {
             System.out.println("Year " + year + " is not a leap year.");
             }*/
 
+        /*int num1 = 45;
+        int num2 = 11;
+        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));*/
 
+      /*  int num1 = 23;
+        int num2 = 11;
+        int num3 = 77;
+        int solution = (num1 + num2 + num3)/3;
+        System.out.println("(" + num1 + " + " + num2 + " + " + num3 + ")/3 = " + solution);*/
 
+     /*   Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your name.");
+        String yourName = scanner.next();
+        System.out.println("Hello, " + yourName + "!");*/
 
 
 
