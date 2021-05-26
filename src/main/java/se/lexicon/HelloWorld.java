@@ -32,13 +32,13 @@ public class HelloWorld {
         System.out.println("(" + num1 + " + " + num2 + " + " + num3 + ")/3 = " + solution);*/
 
         //Exercise 5
-        /* Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name.");
         String yourName = scanner.next();
         System.out.println("Hello, " + yourName + "!");*/
 
         //Exercise 7
-        /* Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         System.out.println("Enter seconds:");
         int seconds = scanner.nextInt();
         int p1 = seconds % 60;
@@ -48,7 +48,7 @@ public class HelloWorld {
         System.out.println(p2 + ":" + p3 + ":" + p1);*/
 
         //Exercise 8
-        /*boolean guess = true;
+        boolean guess = true;
         while (guess) {
             System.out.println("Guess a number between 1 and 500.");
             Scanner scanner = new Scanner(System.in);
@@ -69,6 +69,7 @@ public class HelloWorld {
                 System.out.println();
                 guess = false;
 
-            }*/
+            }
         }
     }
+}
