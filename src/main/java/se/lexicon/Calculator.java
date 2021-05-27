@@ -52,18 +52,27 @@ public class Calculator {
 
             System.out.println("Your calculation equals: " + result);
 
-            System.out.println("Do you want to continue (y/n)");
-            char test = scanner.next().charAt(0);
-            if (test == 'n') {
-                calculate = false;
-            } if (test != 'y' && test != 'n') {
-                System.out.println("Your choice is not valid." /*Please choose (y/n)."*/);
-                calculate = false;
+            boolean answer = true;
+            while (answer) {
+                System.out.println("Do you want to continue? Push (y) for yes or (n) for no.");
+                char test = scanner.next().charAt(0);
+                if (test == 'n') {
+                    answer = false;
+                    calculate = false;
+                }
+                if (test == 'y') {
+                    answer = false;
+                    calculate = true;
+                }
+                if (test != 'y' && test != 'n') {
+                    System.out.println("Your choice is not valid. Please choose (y/n).");
+                    answer = true;
+                    calculate = true;
+                }
             }
+            System.out.println("Thank you for using our calculator.");
         }
-        System.out.println("Thank you for using our calculator.");
     }
 }
-
 
 
